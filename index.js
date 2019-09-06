@@ -8,7 +8,7 @@ class Circle {
   }
   
   set diameter() {
-    this.radius = this.radius * 2
+    this.diameter
   }
   set circumference() {
    this.circumference = Math.pi * diameter
