@@ -20,8 +20,13 @@ class Circle {
   get diameter() {
     return this.radius * 2
   }
-  get circumference() {}
-  get area() {}
+  get circumference() {
+    return Math.pi * this.diameter
+  }
+  get area()
+    { return Math.pi * (this.radius * this.radius)
+      
+    }
  
   
 }
