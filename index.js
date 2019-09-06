@@ -16,8 +16,8 @@ class Circle {
   get circumference() {}
   get area() {}
   
-    get circumference() {}
-  get area() {}
+  set circumference() {}
+  set area() {}
   
   
 }
