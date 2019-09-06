@@ -11,6 +11,11 @@ class Circle {
     this.radius = radius
   }
   
+  
+  get radius(radius) {
+    return radius
+  }
+  
   set diameter(diameter) {
     this.diameter = diameter
   }
