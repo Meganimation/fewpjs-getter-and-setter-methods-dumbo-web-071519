@@ -10,8 +10,12 @@ class Circle {
   set diameter() {
     this.radius = this.radius * 2
   }
-  set circumference() {}
-  set area() {}
+  set circumference() {
+    Math.pi * diameter
+  }
+  set area() {
+    Math.pi
+  }
 
   
   get diameter() {}
