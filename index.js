@@ -8,27 +8,33 @@ class Circle {
   }
   
 
-  
-  set diameter(diameter) {
+class Circle {
+  constructor( radius ) {
+    this.radius = radius;
+  }
+
+  get diameter() {
+    return this.radius * 2
+  }
+
+  set diameter( diameter ) {
     this.radius = diameter / 2
   }
-  set circumference(circumference) {
-   this.circumference = circumference
-  }
-  set area(area) {
-   this.area = area
-  }
-  
-  get diameter() {
-    return (this.radius * 2) * pi
-  }
+
   get circumference() {
-    return Math.PI * this.diameter
+    return ( this.radius * 2 ) * Math.PI
   }
-  get area()
-    { return Math.PI * (this.radius * this.radius)
-      
-    }
- 
-  
+
+  set circumference( circumference ) {
+    this.radius = circumference / ( Math.PI * 2 )
+  }
+
+  get area() {
+    return pi * ( this.radius * this.radius )
+  }
+
+  set area( area ) {
+    this.radius = Math.sqrt( area / Math.PI )
+  }
 }
+  
