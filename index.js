@@ -4,7 +4,7 @@
 class Circle {
   
   constructor(radius) {
-    this.radius = radius(diameter * circumference)
+    this.radius = radius
   }
   
 
