@@ -13,7 +13,7 @@ class Circle {
   
   
   get radius(radius) {
-    return radius
+    return this.radius
   }
   
   set diameter(diameter) {
