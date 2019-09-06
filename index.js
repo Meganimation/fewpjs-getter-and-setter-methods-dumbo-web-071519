@@ -7,17 +7,17 @@ class Circle {
     this.radius = radius
   }
   
-  
+  set diameter() {
+    this.radius * 2
+  }
+  set circumference() {}
+  set area() {}
 
   
   get diameter() {}
-  
-  
   get circumference() {}
   get area() {}
-  
-  set circumference() {}
-  set area() {}
+ 
   
   
 }
